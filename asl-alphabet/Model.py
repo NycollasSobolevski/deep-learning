@@ -2,6 +2,8 @@ from keras import models
 from keras import layers
 from keras import activations
 from keras import callbacks
+from keras import regularizers
+from keras import initializers
 
 
 def GenerateModel():
@@ -30,12 +32,13 @@ def GenerateModel():
 
     model.add(layers.Dense(
         256,
-        
+        kernel_initializer = initializers.RandomNormal(stddev = 1),        
     )) 
     model.add(layers.Activation('relu'))
 
     model.add(layers.Dense(
         64,
+        kernel_regularizer = regularizers.L1(1e-4),
     )) 
 
     model.add(layers.Activation('relu'))
