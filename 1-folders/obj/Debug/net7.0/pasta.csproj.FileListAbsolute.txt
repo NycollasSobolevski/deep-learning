@@ -1,0 +1,15 @@
+C:\Users\disrct\Desktop\Nycollas\DL\deep-learning\pasta\bin\Debug\net7.0\pasta.exe
+C:\Users\disrct\Desktop\Nycollas\DL\deep-learning\pasta\bin\Debug\net7.0\pasta.deps.json
+C:\Users\disrct\Desktop\Nycollas\DL\deep-learning\pasta\bin\Debug\net7.0\pasta.runtimeconfig.json
+C:\Users\disrct\Desktop\Nycollas\DL\deep-learning\pasta\bin\Debug\net7.0\pasta.dll
+C:\Users\disrct\Desktop\Nycollas\DL\deep-learning\pasta\bin\Debug\net7.0\pasta.pdb
+C:\Users\disrct\Desktop\Nycollas\DL\deep-learning\pasta\obj\Debug\net7.0\pasta.csproj.AssemblyReference.cache
+C:\Users\disrct\Desktop\Nycollas\DL\deep-learning\pasta\obj\Debug\net7.0\pasta.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\disrct\Desktop\Nycollas\DL\deep-learning\pasta\obj\Debug\net7.0\pasta.AssemblyInfoInputs.cache
+C:\Users\disrct\Desktop\Nycollas\DL\deep-learning\pasta\obj\Debug\net7.0\pasta.AssemblyInfo.cs
+C:\Users\disrct\Desktop\Nycollas\DL\deep-learning\pasta\obj\Debug\net7.0\pasta.csproj.CoreCompileInputs.cache
+C:\Users\disrct\Desktop\Nycollas\DL\deep-learning\pasta\obj\Debug\net7.0\pasta.dll
+C:\Users\disrct\Desktop\Nycollas\DL\deep-learning\pasta\obj\Debug\net7.0\refint\pasta.dll
+C:\Users\disrct\Desktop\Nycollas\DL\deep-learning\pasta\obj\Debug\net7.0\pasta.pdb
+C:\Users\disrct\Desktop\Nycollas\DL\deep-learning\pasta\obj\Debug\net7.0\pasta.genruntimeconfig.cache
+C:\Users\disrct\Desktop\Nycollas\DL\deep-learning\pasta\obj\Debug\net7.0\ref\pasta.dll
