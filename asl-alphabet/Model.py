@@ -42,12 +42,14 @@ def GenerateModel():
     )) 
 
     model.add(layers.Activation('relu'))
-    model.add(layers.Dropout(0.15))
+    model.add(layers.Dropout(0.3))
 
     model.add(layers.Dense(
         32,
+        kernel_regularizer = regularizers.L1(1e-4),
     )) 
     model.add(layers.Activation('relu'))
+    model.add(layers.Dropout(0.3))
 
     model.add(layers.Dense(
         29,
@@ -65,7 +67,7 @@ def FitModel(model, steps_per_epoch, X_Train, X_Tests, epochs=50, validation_ste
     callbacks       = [
         # callbacks.EarlyStopping(patience = 4),  #!se o erro nao melhorar a cada (4) epocas ele para o fit
         callbacks.ModelCheckpoint(
-            filepath='./models/model.{epoch:02d}-{val_loss:.2f}.h5' #! permite que o treinamento volte aonde parou
+            filepath='./assets/models/model.{epoch:02d}-{val_loss:.2f}.h5' #! permite que o treinamento volte aonde parou
 
         )
     ],
